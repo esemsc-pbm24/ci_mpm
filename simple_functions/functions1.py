@@ -10,5 +10,6 @@ def my_sum(iterable):
     return tot
 
 
+@cache
 def factorial(n):
     return n * factorial(n - 1) if n else 1
